@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment{
-        registry = 'Johnx69/house-price-prediction-api'
+        registry = 'johnx69/house-price-prediction-api'
         registryCredential = 'dockerhub'      
     }
 
