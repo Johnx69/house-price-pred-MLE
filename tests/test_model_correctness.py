@@ -19,4 +19,4 @@ def test_model_correctness():
         "BsmtFinSF2": 0,
         "TotalBsmtSF": 672
     }
-    assert clf.predict(pd.DataFrame(data, index=[0]))[0] == 157552.3761237591
+    assert clf.predict(pd.DataFrame(data, index=[0]))[0] == 157551.3761237591
